@@ -1,0 +1,125 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/xYTtkUU.jpeg",
+    "size": "full",
+    "aspectRatio": "30:13",
+    "aspectMode": "cover",
+    "align": "center",
+    "animated": false,
+    "margin": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "交通資訊",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "請選擇交通方式：",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "🚆臺鐵",
+                  "text": "臺鐵"
+                },
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "🚅高鐵",
+                  "text": "高鐵"
+                },
+                "margin": "lg",
+                "color": "#435e56"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "🚌公車",
+                  "text": "公車"
+                },
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "🚗自行前往",
+                  "text": "自行前往"
+                },
+                "margin": "lg",
+                "color": "#435e56"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

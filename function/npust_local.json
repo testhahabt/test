@@ -1,0 +1,74 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/8PLSej2.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "自行前往",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "6px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "國立屏東科技大學",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "屏東縣內埔鄉學府路1號",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📍學校位置",
+                  "uri": "https://maps.app.goo.gl/fgxj9Yi65RC8eawB8"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#14a73c",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "xl"
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}

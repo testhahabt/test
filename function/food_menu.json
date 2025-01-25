@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/rnC24KL.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "周圍美食",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "請選擇欲查詢的內容：",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "第一餐廳",
+                  "text": "第一餐廳"
+                },
+                "color": "#8B7355"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "第二餐廳",
+                  "text": "第二餐廳"
+                },
+                "margin": "lg",
+                "color": "#8B7355"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "margin": "sm"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "校內便利商店",
+              "text": "便利商店"
+            },
+            "margin": "lg",
+            "color": "#8B7355"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/5wWCx8G.jpeg",
+    "size": "full",
+    "aspectRatio": "30:13",
+    "aspectMode": "cover",
+    "align": "center",
+    "animated": false,
+    "margin": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "問題回報",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "若發現內容錯誤或建議等其他問題，可透過此功能反映給開發者。",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "開始回報",
+                  "text": "問題回報@開始"
+                },
+                "color": "#00A600"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

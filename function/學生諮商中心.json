@@ -1,0 +1,77 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "學務處 - 學生諮商中心",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "主要業務為諮商與輔導、心理衡鑑、危機個案處遇、新生身心適應調查普測、導師及身心障礙學生輔導、學生申訴等業務。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "資源教室簡介",
+          "text": "資源教室簡介"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006146287-DgpK8qzA"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【學務處】",
+          "text": "學務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

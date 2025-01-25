@@ -1,0 +1,164 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/rnC24KL.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "周圍美食",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "校內學生餐廳及便利商店：",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "第一餐廳",
+                  "text": "第一餐廳"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#D26900",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "第二餐廳",
+                  "text": "第二餐廳"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#D26900",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "🏪校內便利商店",
+              "text": "便利商店"
+            },
+            "height": "sm",
+            "style": "primary",
+            "color": "#D26900",
+            "scaling": false,
+            "gravity": "center",
+            "margin": "lg"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "校外周圍店家分類：",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "🍳早餐",
+                  "text": "校外周圍美食@早餐"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#FF9224",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "🍜午餐",
+                  "text": "校外周圍美食@午餐"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#FF9224",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "🍛晚餐/宵夜",
+                  "text": "校外周圍美食@晚餐/宵夜"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#FF9224",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "🥤飲料/甜點",
+                  "text": "校外周圍美食@飲料/甜點"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#FF9224",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "lg",
+            "spacing": "sm"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

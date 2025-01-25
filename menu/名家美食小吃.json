@@ -1,0 +1,136 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/Tyix5is.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "上傳菜單圖片",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "⚠️ 注意事項",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "您所上傳的圖片所有用戶皆可查看，嚴禁利用本功能上傳與該店家菜單無關或任何非法圖片，上傳的圖片及時間都會在後台留下紀錄。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "🖼️ 選擇上傳的圖片數量",
+                "margin": "sm",
+                "weight": "bold"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "若菜單需用多張圖片才能完整呈現，請在上傳前先選擇需要上傳的圖片數量：",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": " （最少須上傳一張，最多限上傳三張）",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "1 張",
+                  "data": "上傳菜單@名家美食小吃@1張"
+                },
+                "style": "secondary",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "2 張",
+                  "data": "上傳菜單@名家美食小吃@2張"
+                },
+                "style": "secondary",
+                "height": "sm"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "postback",
+                  "label": "3 張",
+                  "data": "上傳菜單@名家美食小吃@3張"
+                },
+                "height": "sm",
+                "style": "secondary"
+              }
+            ],
+            "spacing": "md",
+            "margin": "lg"
+          }
+        ],
+        "margin": "none"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "店家名稱：名家美食小吃",
+        "margin": "lg",
+        "size": "sm",
+        "wrap": true,
+        "decoration": "underline"
+      }
+    ]
+  }
+}

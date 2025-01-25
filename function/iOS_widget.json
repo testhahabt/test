@@ -1,0 +1,71 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/qoW8XDU.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/dz5efe2.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/Vm27CHU.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/H4qxnDX.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/8ztfov2.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/NHE4seN.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    }
+  ]
+}

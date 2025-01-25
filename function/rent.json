@@ -1,0 +1,131 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/vUr38UO.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "校外賃居",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "新生第一次校外賃居租屋，建議選擇經過學校消防設施安全檢修認證合格房東，盡量承租有賃居處所名稱、消防逃生、保全監視，防護安全設備等場所為宜。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "如有賃居相關問題，請電(08)7703202轉1119，學校校外賃居承辦人：邱教官。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,1119"
+        }
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080",
+            "action": {
+              "type": "message",
+              "label": "賃居處所",
+              "text": "賃居處所"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "懶人包",
+              "uri": "https://liff.line.me/2006146287-jxz3JBga"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "雲端租屋網",
+              "uri": "https://house.nfu.edu.tw/NPUST"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "合格名單",
+              "uri": "https://liff.line.me/2006146287-mvvpWLDg"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【生活輔導組】",
+          "text": "生活輔導組"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

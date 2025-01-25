@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "npust-bot",
+  "private_key_id": "8425375b1a4afe820997e644bf8d86efe7c3b68e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDB8YmqR3CX7ZK3\nX0KLGj5UiCkGX17TF8XdGP2fHFsOZJXn8+YKzmXqJMFzLwGp7fC2Q2udOL1HLWWq\nHmGjX2wBj4l2YiZCZPG7VmQMVWx5QQTklwiy8EpH/UBUrYhJp3EGyG+G1MJCDBU+\nl+qifFXPVTIHClfrebo8uXnKKQ60X3DVcnSdvtaHggICpUDYKWOUbKPv3w/IHTgf\ngIgakxUjv9Wnj/vEpVeS9C39X3NXGCk9m48wP0gAzYED9G6X70lm3qXrtgU54KkI\nMvkme5c8rIa0r+WOK4h6sLUCN/0HRvphWXuos+IwIOJHuNKiyTLY5b/PZJ7shtNb\nRc90qKKdAgMBAAECggEAJ80TZPQTScKSJPqyM8zXdM6aqLmiwqxyyTyLM/+EOlBv\nKTJ3B8myxZn0b1h6vW5cw3LTn2jZA0XwQrjIbdgz2KAl5DshQefoaftBPfy77ahn\nwieyu9IvVFXHQXl5ajAoNG2m4aNBGH/VTkqr9tuQWqPPx/0Z7PPGwhaIRXIml+JQ\n1mPg85Y8aVDxddJVJztI96l0fTq7TSEMihtjzbEI3qagAZfbJt5QbLBVOpjJnTO9\nThgkNAx5UnjpeMCQ11zfhZuzDaAgdGfFWgNX7g0qiXDW2t5vS5N4HfFoR+xAF/BX\nMoFJ0Fqhnp3upbgijLTdcoXWWIUUCP0W9yCI7Ht9qwKBgQDg0Z6e8Lmy8Vi+c2HN\nXGTcNe+z+RMA3cF6eFIwdNLkTqdLKADCQaXiy7Ne1kAXFYtyCeW+cionVRUdT90H\nr923u61hanp/crHdPK7Mvrltr+RnrZKbzk8Jl3hXvCWrXnSTeF979EFGzZ1tA7pP\nbCl1g0V5pkMxY/I3mtBCUGhX2wKBgQDc16oClm62SCl1YGLi8kGstKNdTWOKhDbg\nwjOMx6AIB3XaXvnBFAnyq5UElUNtFRuRIJdnFIq2sIgNoytZFs2NeNfGgIF7Knhg\nlGO/9cyQE07bwdCk1lXroaWinlA3wBenu92pEXMcpB+PzkzyfXiESo1imbWnxtug\nMTBjxUDU5wKBgGzXDuQDxuNK1JvfYEn7oRi7RADtZLXWpgSUm7W52R+OtI8+Hp/t\nCFJ0K7KOJxkF5SygfgllW+MO3doDAA7opX597cJrukJZVKK27ilRbJQdw4YuEfw8\nNSd/nVNcUyBT6jw62n84ESImCUDtvRUWWDv8AXaTd5RBvtIMsSZppxphAoGAaYex\nGP1zuC0xioJdnp8vHO1Q52P0vhtB8hM6+Pnnkg6mlYwvAsGlo020rvT4vGaKvsX5\nM2vQgU5IJWQkcbUA0qq9SYDc3tNDpLskE3XMo8hmNYMfRbWaZzfeY6ANKybi5udS\nG9lXzYbsAhcOFA47CdRqTYSwFpVjG+CFhBedTF8CgYEAmQFvdbAdHE+J5V9uWERR\nPhOAcFcirfhsUjNsh5Cf0pVy7Dt0N5YIb/VmcxfmQxSgAzemKYe06cqampJJnfbV\n2t1hXWNm/xgijXCQgOARtI9YL4E1G4ZN6iLX3gz96WvchPlDxRb77yRPKOczURZr\nUi1TagnS1c7eoYxlnQAWQY0=\n-----END PRIVATE KEY-----\n",
+  "client_email": "npustbot@npust-bot.iam.gserviceaccount.com",
+  "client_id": "104790733578868038205",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/npustbot%40npust-bot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

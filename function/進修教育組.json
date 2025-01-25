@@ -1,0 +1,58 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "教務處 - 進修教育組",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "進修部四技及碩專班註冊、學籍管理、成績及預警、休退復學、學生證申請、學分抵免、學分費核算、轉系輔系雙主修、畢業資格審核、畢業證書核發。\n進修部四技及碩專班開排課、暑修、選課、校際選課、教師差假調補課、外語能力檢定獎勵、學生缺曠請假、課程規劃修訂、遠距教學、新生英聽測驗。\n產學攜手合作計畫專班開班、經費申請與結報。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006282783-v8dWdVmA"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【教學事務處】",
+          "text": "教學事務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

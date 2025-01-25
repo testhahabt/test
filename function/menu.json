@@ -1,0 +1,100 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/4oHy3bf.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "學校信箱",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "信箱格式：學號@mail.npust.edu.tw",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "學號開頭為113(含)後之學生",
+                  "uri": "https://st.npust.edu.tw/cgi-bin/login"
+                },
+                "color": "#FF8040"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "112(含)前之學生及教職員",
+                  "uri": "https://mail.npust.edu.tw/cgi-bin/login?index=1"
+                },
+                "margin": "lg",
+                "color": "#FF8040"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "margin": "sm"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "預設帳號為學號，密碼則為身分證字號。",
+        "margin": "lg",
+        "size": "sm",
+        "color": "#aaaaaa"
+      }
+    ]
+  }
+}

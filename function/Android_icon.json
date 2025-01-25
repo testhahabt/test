@@ -1,0 +1,49 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/z69RoRq.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/hRkFIJD.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/LvOdTWF.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    },
+    {
+      "type": "bubble",
+      "size": "mega",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/3C9Nejd.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      }
+    }
+  ]
+}

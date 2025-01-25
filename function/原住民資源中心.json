@@ -1,0 +1,77 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "學務處 - 原住民資源中心",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "一、規劃本校原住民族學生各項輔導之工作計畫。 \n\n二、整合與連結校內及原住民族相關單位與資源。\n\n三、原住民族學生相關資料建置與統合，強化資料庫完整性。\n\n四、加強原住民族學生文化陶冶與發展。\n\n五、推動原住民族學生與原鄉部落之連結。\n\n六、原住民族學生生涯規劃與就業輔導工作。\n\n七、其他原住民族相關議題之活動。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": " 原住民族學生資源中心網站",
+          "uri": "https://isrc.npust.edu.tw/"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006146287-4oGkWEPX"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【學務處】",
+          "text": "學務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

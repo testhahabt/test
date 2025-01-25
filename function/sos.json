@@ -1,0 +1,132 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "url": "https://i.imgur.com/ObMSKxs.jpeg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "緊急電話",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "如發生緊急情況，可透過下方聯絡方式立即通報各單位尋求協助：",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📞校安緊急電話號碼",
+          "uri": "tel:087703202,,7119"
+        },
+        "style": "primary",
+        "gravity": "center",
+        "height": "sm",
+        "color": "#FF6347",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📱校安緊急手機號碼",
+          "uri": "tel:0921547119"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FF6347",
+        "margin": "xl",
+        "gravity": "center"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📞大門駐衛警電話號碼",
+          "uri": "tel:087703202,,5041"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FF6347",
+        "margin": "xl",
+        "gravity": "center"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📢校安中心網站公告",
+          "uri": "https://liff.line.me/2006146287-Z6vx5D3L"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FF6347",
+        "margin": "xl",
+        "gravity": "center"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "🆘AED專區",
+              "text": "AED專區"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF6347"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "☎️分機查詢",
+              "uri": "https://ga.npust.edu.tw/docfile/fileDown/%E9%9B%BB%E8%A9%B1%E4%B8%80%E8%A6%BD%E8%A1%A8.pdf"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF6347"
+          }
+        ],
+        "spacing": "sm",
+        "margin": "xl"
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "text",
+        "text": "學校總機號碼：(08)7703202#分機號碼",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "xl",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202"
+        }
+      }
+    ]
+  }
+}

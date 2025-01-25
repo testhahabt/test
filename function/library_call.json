@@ -1,0 +1,183 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "url": "https://i.imgur.com/jn3HPB2.jpeg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "圖書與會展館 - 聯絡資訊",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://i.imgur.com/jfBPCh5.png",
+            "offsetTop": "6px",
+            "size": "xl"
+          },
+          {
+            "type": "text",
+            "text": "聯絡電話",
+            "weight": "bold",
+            "size": "md",
+            "margin": "lg",
+            "offsetEnd": "8px"
+          }
+        ],
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "館長室：\n📞 (08)7703202#7260",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "xl",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,7260"
+        }
+      },
+      {
+        "type": "text",
+        "text": "讀者服務組 流通櫃臺：\n📞 (08)7703202#7273、7267",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,7273"
+        }
+      },
+      {
+        "type": "text",
+        "text": "技術服務組：\n📞 (08)7703202#7277、7282",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,7277"
+        }
+      },
+      {
+        "type": "text",
+        "text": "會展活動組：\n📞 (08)7703202#7311、7312",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,7311"
+        }
+      },
+      {
+        "type": "text",
+        "text": "會展活動組 藝文中心與校史館：\n📞 (08)7703202#7286",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,7286"
+        }
+      },
+      {
+        "type": "text",
+        "text": "新聞媒體組：\n📞 (08)7703202#6638、6559",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,6638"
+        }
+      },
+      {
+        "type": "text",
+        "text": "傳真電話：📠 (08)7740149",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087740149"
+        }
+      },
+      {
+        "type": "text",
+        "text": "電子信箱：\n✉️ library@mail.npust.edu.tw",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "xl",
+        "wrap": true,
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "mailto:library@mail.npust.edu.tw"
+        }
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "Facebook",
+              "uri": "https://www.facebook.com/npustlib"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#0866ff"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "Instagram",
+              "uri": "https://www.instagram.com/npustlib"
+            },
+            "color": "#ff2c6a"
+          }
+        ],
+        "margin": "xl"
+      }
+    ]
+  }
+}

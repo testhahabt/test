@@ -1,0 +1,123 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/wk1II6f.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "高鐵 High Speed Rail",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/i1UlclG.png",
+                "offsetTop": "3.5px"
+              },
+              {
+                "type": "text",
+                "text": "左營站",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "本站可透過轉乘臺鐵屏東站後再搭乘",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "509公車往返火車站及學校",
+            "margin": "none",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ℹ️ 車站資訊",
+                  "uri": "https://liff.line.me/2006125815-pQXrPj0J"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#575757",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📍車站位置",
+                  "uri": "https://maps.app.goo.gl/HRUic5o9LwGYPxqc9"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#575757",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "separator"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒時刻表查詢 /  🎫訂票",
+                      "uri": "https://www.thsrc.com.tw/ArticleContent/a3b630bb-1066-4352-a1ef-58c7b4e8ef7c"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#575757",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ],
+        "margin": "xl"
+      }
+    ]
+  }
+}

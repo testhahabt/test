@@ -1,0 +1,139 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "教務處",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "本處置教務長一人（教授兼任），主持全校教務事宜；副教務長一人，襄助教務長處理教務業務。分設四個組及一個中心， 分掌教務相關業務，各組(中心)置組長(主任)一人（教授兼任）",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#548C00",
+            "action": {
+              "type": "message",
+              "label": "註冊組",
+              "text": "註冊組"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "課務組",
+              "text": "課務組"
+            },
+            "color": "#548C00"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "綜合業務組",
+          "text": "綜合業務組"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "進修教育組",
+          "text": "進修教育組"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "教學資源中心",
+          "text": "教學資源中心"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼教務長室 行政人員",
+          "uri": "https://liff.line.me/2006282783-9rX3Xzxn"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "📍各單位位置",
+          "text": "單位位置@教務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

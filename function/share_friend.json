@@ -1,0 +1,43 @@
+{
+  "type": "bubble",
+  "size": "deca",
+  "hero": {
+    "type": "image",
+    "url": "https://qr-official.line.me/gs/M_338awiol_BW.png",
+    "size": "xxl",
+    "aspectMode": "cover",
+    "aspectRatio": "1:1",
+    "offsetTop": "8px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "分享 NPUST 小幫手",
+        "weight": "bold",
+        "size": "lg",
+        "align": "center",
+        "margin": "md"
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "傳送給好友",
+          "uri": "https://line.me/R/nv/recommendOA/@338awiol"
+        },
+        "style": "primary",
+        "height": "sm"
+      }
+    ],
+    "offsetTop": "-10px"
+  }
+}

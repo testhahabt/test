@@ -1,0 +1,206 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/r8K7Y5W.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "男生宿舍 - 仁齋",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "text",
+            "text": "仁齋為男生齋，4人房，基本色調為淡綠色及白色，共有143間，572個床位。\n 一樓設有2間愛心房，四樓為健康宿舍。\n\n位於本校綜合大樓隔壁，於實齋對面，鄰近第二餐廳。\n\n房間大小約5.88坪，床板大小約為89×205（CM）。\n\n房間內個人設施有書桌、書櫃、抽屜、桌燈、椅子、事物櫃、衣櫥、床板（沒有床墊）、網路孔。\n公共設施有位於天花板的電風扇兩台、曬衣繩、分離式冷氣、鞋櫃。",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "xl",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#408080",
+                "action": {
+                  "type": "message",
+                  "label": "📷宿舍照片",
+                  "text": "仁齋@宿舍照片"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "📍宿舍位置",
+                  "uri": "https://maps.app.goo.gl/KMkdBkMAjCeFThxc6"
+                },
+                "color": "#408080"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/uTS0yN1.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "男生宿舍 - 實齋",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "text",
+            "text": "實齋為男生齋，4人房，基本色調為淡藍色及白色，共有143間，541個床位。\n 一樓設有2間愛心房，四樓為健康宿舍。\n\n位於本校綜合大樓隔壁，於仁齋對面，鄰近第二餐廳。\n\n房間大小約5.95坪，床板大小約為89×205（CM）。\n\n房間內個人設施有書桌、書櫃、抽屜、桌燈、椅子、事物櫃、衣櫥、床板（沒有床墊）、網路孔。\n公共設施有位於天花板的電風扇兩台、曬衣繩、分離式冷氣、鞋櫃。",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "xl",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#408080",
+                "action": {
+                  "type": "message",
+                  "label": "📷宿舍照片",
+                  "text": "實齋@宿舍照片"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "📍宿舍位置",
+                  "uri": "https://maps.app.goo.gl/f2ugSTr7mM4vh57M6"
+                },
+                "color": "#408080"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/yrfMNtE.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "男生宿舍 - 德齋",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "text",
+            "text": "德齋為男生齋，4人房，基本色調為原木色，共有107間，432個床位。\n一樓設有2間愛心房。\n\n位於第二餐廳後方。\n\n房間大小約5.77坪，床板大小約98×205 （CM）。\n\n房間內個人設施有書桌、書櫃、抽屜、桌燈、椅子、衣櫥、床板（沒有床墊）、網路孔。 \n公共設施有位於天花板的電風扇、曬衣繩、鞋櫃、分離式冷氣。",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "xl",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "33px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#408080",
+                "action": {
+                  "type": "message",
+                  "label": "📷宿舍照片",
+                  "text": "德齋@宿舍照片"
+                }
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "📍宿舍位置",
+                  "uri": "https://maps.app.goo.gl/5vYscXuwZUnQA7Nt6"
+                },
+                "color": "#408080"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "教務處 - 綜合業務組",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "主辦四技（含產專班）、轉學、博士班及碩士班等各類招生事宜。\n辦理海外招生宣導業務、各類招生統計彙報作業、招生總量管制作業、辦理增減調整所系班及系所更名報部事宜。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006282783-K54N4Yzp"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【教務處】",
+          "text": "教務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/faJuyEa.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "圖書與會展館 - 開館時間",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "6px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "圖書閱覽服務",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "週一至週五 08:10 ~ 22:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週六 09:00 ~ 20:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週日 09:00 ~ 17:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "寒暑假：週一至週五 08:10~17:00\n（週六、日不開放）",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "國定假日 不開放",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true,
+            "color": "#FF0000"
+          },
+          {
+            "type": "text",
+            "text": "（圖書閱覽服務含圖書借還、閱覽室、書庫、研究小間、B1悅讀園等）",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "3px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "2F 愉.瑜.踰.創意發想中心",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "週一至週五 09:00 ~ 21:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週六 09:00 ~ 19:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週日 09:00 ~ 17:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "寒暑假：週一至週五 09:00~17:00\n（週六、日不開放）",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "國定假日 不開放",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "3px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "3F 藝文中心",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "週一至週五 08:10 ~ 17:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週六、週日及國定假日 不開放",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "3px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "B1 悅讀園",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "期中、期末考前一週開放",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週一至週五 08:10 ~ 22:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週六 09:00 ~ 19:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "週日 09:00 ~ 16:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "國定假日 不開放",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "若有異動依公告為主，資訊僅供參考。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#aaaaaa"
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/UXFIQGL.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "圖書與會展館 樓層簡介123",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/LcB4Zrs.png",
+                "offsetTop": "3.5px"
+              },
+              {
+                "type": "text",
+                "text": "一樓",
+                "weight": "bold",
+                "margin": "sm"
+              },
+              {
+                "type": "text",
+                "text": "距離學校約20分鐘",
+                "size": "sm",
+                "color": "#aaaaaa",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "本站可透過509公車往返火車站及學校",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ℹ️ 車站資訊",
+                  "uri": "https://liff.line.me/2006125815-LOpw4Q7o"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📍車站位置",
+                  "uri": "https://maps.app.goo.gl/f1opwt35FAZvivc9A"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "xl"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/LcB4Zrs.png",
+                "offsetTop": "3.5px"
+              },
+              {
+                "type": "text",
+                "text": "西勢車站",
+                "weight": "bold",
+                "margin": "sm"
+              },
+              {
+                "type": "text",
+                "text": "距離學校約15分鐘",
+                "size": "sm",
+                "color": "#aaaaaa",
+                "align": "end"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "本站不停靠自強號",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "ℹ️ 車站資訊",
+                  "uri": "https://liff.line.me/2006125815-5Zp3vkG1"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📍車站位置",
+                  "uri": "https://maps.app.goo.gl/4VWEfWxABXqd2gh3A"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "separator"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒時刻表查詢 /  🎫訂票",
+                      "uri": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#0075c2",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ],
+        "margin": "xl"
+      }
+    ]
+  }
+}

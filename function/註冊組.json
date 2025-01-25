@@ -1,0 +1,58 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "教務處 - 註冊組",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "學生註冊管理、證件核發、學籍異動、學生成績管理、畢業資格審核、學位論文、學則修訂、行事曆編訂、國內外學生交換與經費補助。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006282783-wjPBPKm5"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【教務處】",
+          "text": "教務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

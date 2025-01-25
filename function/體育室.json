@@ -1,0 +1,216 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "體育室",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true,
+        "text": "體育室前身為體育衛生組，歷經屏東高農、屏東農專及屏東技術學院三個時期。民國八十三年設立為一級行政單位，民國九十四年分為競賽活動組與場地設備組，負責全校體育運動業務，提供教學、服務與多元運動資源。\n\n服務時間：\n🕒 08:00-12:00、13:30-17:00"
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "md",
+        "wrap": true,
+        "text": "聯絡電話：\n 📞 (08)7703202#6481",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "tel:087703202,,6481"
+        }
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "md",
+        "wrap": true,
+        "text": "電子信箱：\n✉️ hochamei@mail.npust.edu.tw",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "mailto:hochamei@mail.npust.edu.tw"
+        }
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF5809",
+            "action": {
+              "type": "uri",
+              "label": "健身房預約",
+              "uri": "https://liff.line.me/2006282783-er757mwd"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "體適能登錄",
+              "text": "體育室@體適能登錄"
+            },
+            "color": "#FF5809"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "場地租借 / 使用時程表",
+          "text": "體育室@場地租借"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FF5809",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF8000",
+            "action": {
+              "type": "message",
+              "label": "🏸室內球場",
+              "text": "室內球場"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "🏀室外球場",
+              "text": "室外球場"
+            },
+            "color": "#FF8000"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF8000",
+            "action": {
+              "type": "message",
+              "label": "🏋️健身房",
+              "text": "健身房"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "🏊游泳池",
+              "text": "游泳池"
+            },
+            "color": "#FF8000"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "gravity": "center",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "🏃田徑場",
+          "text": "田徑場"
+        },
+        "color": "#FF8000",
+        "margin": "xl"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼體育室 成員",
+          "uri": "https://liff.line.me/2006282783-Bj5Q5PyV"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FFA042",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "📍各單位位置",
+          "text": "單位位置@體育室"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#FFA042",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

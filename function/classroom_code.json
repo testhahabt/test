@@ -1,0 +1,1256 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/I0l8AHB.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "各系教室代號",
+        "weight": "bold",
+        "size": "xl",
+        "margin": "none"
+      },
+      {
+        "type": "text",
+        "text": "點擊文字可直接跳轉至 Google Maps",
+        "size": "sm",
+        "margin": "md",
+        "color": "#aaaaaa",
+        "weight": "regular"
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "A",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none",
+            "color": "#d53432"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AG",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "景憩所",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/o6QbiS4g3kw3k1756"
+            },
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AH",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "動物醫院",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/38AYkTQAYKKLaKv19"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AIM",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0,
+                "contents": []
+              },
+              {
+                "type": "text",
+                "text": "智慧機電館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/pKB9sgAV6pXP8Cam8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AQ",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "養殖系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/VB73Wf8fJX58VtpVA"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AR",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "熱帶農業研究中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/5xE7wdYaK61cb2CZA"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "AS",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0,
+                "margin": "none"
+              },
+              {
+                "type": "text",
+                "text": "動畜系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/4vNnyvTooA2W4jEd9"
+            }
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "B、C、E",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "xxl",
+            "color": "#d53432"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "xxl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "BD",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "大數據中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/fkHXWdaDGouuatJa9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "BE",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "生物機電工程系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/FDL4Cw7CqysNnfLM7"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "BS",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "基礎大樓（幼保系）",
+                "size": "md",
+                "color": "#111111",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/Qi6t1fckxvNZN2ff7"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "BT",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "生物科技系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/m1zupnyA7kijHo3RA"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CE",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "工學院大樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/3gHkUZuZCsRmMUc99"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "CM",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "管理學院大樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/Vw7bVq7pPvfVBES99"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "EP",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "環工系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/wzYmoKTsV6ZJ5dqp8"
+            }
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "F、G、H",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "xxl",
+            "color": "#d53432"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "FC",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "水產養殖保種中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/pRAb7LY2XD2XaBmR6"
+            },
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "FP",
+                "size": "md",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "食品工廠",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/v1FphrJGQbZN4Yjf6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "FS",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "食品系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/gAm3ne5rp6dtXBaH8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "GH",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "農園系溫室",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/PHVbX9EZ2yXxSBc19"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HE",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "時尚系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/VUU7svJsdjxoi56z8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HF",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "園藝場",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/tdDf8pMHEMcQmaxo7"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HL",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "土木系水工實驗室",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/iEgYBiJRiYauTEWg6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HO",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "農園館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/gHivXa6PrXM2U71s5"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "HR",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "餐旅暨遊憩大樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/eXjYEKTAagJ8FENW8"
+            }
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "I、Ｌ、M、P",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "xxl",
+            "color": "#d53432"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "IB",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "電算中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/nsxKswfcwLN89A3j7"
+            },
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "IC",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "國際學院大樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/XVpsFBZg73oQELJd9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "IH",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "綜合大樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/KegwufM9DxhPbpz47"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "LA",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "馬病研究室（動物醫院）",
+                "size": "md",
+                "color": "#111111",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/aYubW2T38T6g9NR87"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ME",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "機械系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/ZLT5fTdQ5BbvoiVq7"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "MW",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "機械工廠",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/oJk3XDRziM2DRQm76"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "PI",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "有機農場（農園系）",
+                "size": "md",
+                "color": "#111111",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/bfqhsWDsdXuZougj9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "PM、PP",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "植醫館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/kNvn5deQ5RbVk5Bf6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "PMH",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "植醫二館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/cMBnnk3gfu2CmiNGA"
+            }
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "R、S、T、V、W",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "xxl",
+            "color": "#d53432"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "RE",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "資源工程館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/VGXxsG5ihWGXVp6v6"
+            },
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "RO",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "畜牧場",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/CFoqSfmbsycW2pS59"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SA",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "科技農業中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/RNPGFaxSreP1Dx8p9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "SAM",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "智慧農機中心",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/yRW7zXGoZkkvLjSk8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "TA",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "熱農系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/nurHPooHSbaxSFLs8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "VE、VEL",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "車輛系",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/4agkyjHdvFqCiVrJ7"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "VM",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "獸醫館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/wrQQriF1FNTw7z9K6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "VM Ⅱ",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "獸醫二館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/CC9XWDUso6WZihBo6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WH",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "野保所",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/ECBuzEfkkFMDB3LF8"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "WP",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "木工廠",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/byutG6DmixGtaAy97"
+            }
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "藝文A",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "圖書與會展館",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/CavefGUXEamh46p67"
+            },
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "體教",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "體育館二樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/RW6iCBHP6NxC9dpz9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "體適能中心",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "體育館二樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/RW6iCBHP6NxC9dpz9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "多功能運動",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "體育館二樓",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/RW6iCBHP6NxC9dpz9"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "戶外冒險場",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "體育館正門口對面",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/fJndib3WCkTZ4mve6"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "功能訓練中心",
+                "size": "md",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "工作犬訓練學校",
+                "size": "md",
+                "color": "#111111",
+                "align": "end"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/cmQveR31f9xqagMR8"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}

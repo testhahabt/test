@@ -1,0 +1,77 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "教務處 - 教學資源中心",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "提升教學品質計畫、爭取經費補助、運用教學資源、建立學生學習功能。\n遴聘業界專家協同教學、教師教學成長研習會、教學績優教師遴選、教學獎助生培訓與管考。\n招生博覽會、招生宣導、高中職到班宣導及參訪業務。\n優化技職校院實作環境、教師教學實踐研究計畫、高教深耕教學類計畫。\n整合教學資源相關事務。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "教學資源中心網站",
+          "uri": "https://te.npust.edu.tw/"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼行政人員",
+          "uri": "https://liff.line.me/2006282783-jvQ5QMvm"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【教務處】",
+          "text": "教務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#548C00",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

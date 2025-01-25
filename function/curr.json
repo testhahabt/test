@@ -1,0 +1,122 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "上傳自己的課表",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1️⃣第一步",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "開啟校務系統網站將課表螢幕截圖下來",
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "開啟校務系統網站",
+                  "uri": "https://liff.line.me/2006146287-KmaBVo7e"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#008001",
+                "gravity": "center"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/Kkx4mRa.jpeg",
+            "size": "full",
+            "aspectRatio": "20:16",
+            "margin": "md"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2️⃣第二步",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "再將圖片直接傳送至小幫手聊天室中",
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "text",
+            "text": "可以先將圖片裁切至最適大小再上傳喔！",
+            "margin": "md",
+            "size": "sm",
+            "color": "#fe0000"
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/RNq0lDE.png",
+            "size": "full",
+            "aspectRatio": "20:3",
+            "margin": "sm"
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/2JWDF5I.png",
+            "size": "full",
+            "aspectRatio": "20:3",
+            "margin": "xs"
+          }
+        ],
+        "margin": "none"
+      }
+    ]
+  }
+}

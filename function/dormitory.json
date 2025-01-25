@@ -1,0 +1,118 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/v1vdmoq.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "學生宿舍",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "1.男生齋：仁齋、實齋、德齋。\n\n2.女生齋：智齋、信齋、勇齋、誠齋、慧齋\n\n3.健康宿舍：女生為慧齋整棟，男生為仁齋及實齋的4樓。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080",
+            "action": {
+              "type": "uri",
+              "label": "申請方式",
+              "uri": "https://liff.line.me/2006146287-l6oNApmR"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "宿舍簡介",
+              "text": "宿舍簡介"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "男宿介紹",
+              "text": "男宿介紹"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "女宿介紹",
+              "text": "女宿介紹"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "🔙返回 【生活輔導組】",
+          "text": "生活輔導組"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

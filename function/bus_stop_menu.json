@@ -1,0 +1,70 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "加入屏科大校園公車社群",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "加入屏科大校園公車社群，就可以在第一時間收到班次異動資訊、站牌搭車位置等最新消息！",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "立即加入社群",
+                  "uri": "https://line.me/ti/g2/HCtHA4PXRJAX3MYVbYSZKAYgoGKytXXLdnWHEA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+                },
+                "color": "#ffb02e"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "margin": "sm"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "語言中心",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "統籌英文與外語課程、訂定畢業外語門檻並追蹤、提升學生外語能力與推動檢定測驗、管理語言教室與自學區、推廣自主學習、提供補救教學與外語證照輔導、提供翻譯服務。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080",
+            "action": {
+              "type": "message",
+              "label": "課程地圖",
+              "text": "語言中心@課程地圖"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "畢業門檻",
+              "text": "語言中心@畢業門檻"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080",
+            "action": {
+              "type": "message",
+              "label": "語言選修",
+              "text": "語言中心@課程地圖"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "模擬測驗",
+              "uri": "http://linecorp.com/"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#408080",
+            "action": {
+              "type": "message",
+              "label": "教室設備",
+              "text": "語言中心@教室設備"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "英語寫作",
+              "uri": "https://liff.line.me/2006282783-KvW5WD08"
+            },
+            "color": "#408080"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "線上模擬測驗",
+              "uri": "https://lc.npust.edu.tw/%e7%b7%9a%e4%b8%8a%e6%a8%a1%e6%93%ac%e6%b8%ac%e9%a9%97/"
+            },
+            "style": "primary",
+            "height": "sm",
+            "color": "#408080",
+            "gravity": "center"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "短期課程活動",
+              "uri": "https://liff.line.me/2006282783-DyWQWJdx"
+            },
+            "style": "primary",
+            "height": "sm",
+            "color": "#408080",
+            "gravity": "center"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "多益 TOEIC 校園考",
+          "uri": "https://liff.line.me/2006282783-xrr2rqz0"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🧑‍💼語言中心 行政人員",
+          "uri": "https://liff.line.me/2006146287-g6EjJdPn"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "📍各單位位置",
+          "text": "單位位置@學務處"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#408080",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "url": "https://i.imgur.com/J3C83do.jpeg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "AED 專區",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "本校於校內共設置10處AED裝置。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "🆘AED位置",
+              "uri": "https://www.google.com/maps/d/u/1/edit?mid=1g00hDZlEyg4QRwcUER87lZc3oPYBGZs&usp=sharing"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF6347"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "🎞️使用方式",
+              "uri": "https://youtu.be/JphvDiE09UA?si=qd-4JZiA9GA0I4AV"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#FF6347"
+          }
+        ],
+        "spacing": "sm",
+        "margin": "xl"
+      }
+    ]
+  }
+}

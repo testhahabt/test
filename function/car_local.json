@@ -1,0 +1,95 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/vmKpVLy.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "返鄉專車站點位置",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "請選擇欲查詢的站點區域：",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "北區 (北、桃、竹)",
+                  "text": "返鄉專車@站點位置@北區"
+                },
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "中區 (苗、中、彰、投、雲)",
+                  "text": "返鄉專車@站點位置@中區"
+                },
+                "margin": "lg",
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "message",
+                  "label": "南區 (嘉、南)",
+                  "text": "返鄉專車@站點位置@南區"
+                },
+                "margin": "lg",
+                "color": "#435e56"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

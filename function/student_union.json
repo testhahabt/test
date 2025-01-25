@@ -1,0 +1,484 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/dh99yTM.jpeg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "國立屏東科技大學  學生會",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/9kfzg9R.png",
+                "offsetTop": "6px",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "聯絡資訊",
+                "weight": "bold",
+                "size": "md",
+                "margin": "lg",
+                "offsetEnd": "8px"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "會辦位置：🚩 南側司令台下方",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "xl",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+            }
+          },
+          {
+            "type": "text",
+            "text": "連絡電話：📞 (08)7703202#7656",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "tel:087703202,,7656"
+            }
+          },
+          {
+            "type": "text",
+            "text": "電子信箱：✉️ npustsa@gmail.com",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "mailto:npustsa@gmail.com"
+            }
+          },
+          {
+            "type": "text",
+            "text": "值班時間：🕒 週一至週五 19:00-21:00",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "Facebook",
+                  "uri": "https://www.facebook.com/npustsa"
+                },
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#0866ff"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "Instagram",
+                  "uri": "https://www.instagram.com/npust_sa/"
+                },
+                "color": "#ff2c6a"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "LINE",
+                  "uri": "https://liff.line.me/1645278921-kWRPP32q/?accountId=xxk6154o"
+                },
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#06c655"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "官方網站",
+                  "uri": "https://sa.npust.edu.tw/"
+                },
+                "color": "#fbab18"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "🔗 學生申訴系統",
+              "uri": "https://docs.google.com/forms/d/e/1FAIpQLSdLcWRrUF-RBqA_JIZz9XIhvKcrMr-pVr4Lsp3fpPM5wrg7iQ/viewform?embedded=true"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#686665",
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/vmKpVLy.jpeg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "國立屏東科技大學  學生會",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/9kfzg9R.png",
+                "offsetTop": "6px",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "返鄉專車",
+                "weight": "bold",
+                "size": "md",
+                "margin": "lg",
+                "offsetEnd": "8px"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "售票地點：📍 學生會辦公室",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "xl",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+            }
+          },
+          {
+            "type": "text",
+            "text": "售票日期：📆 依學生會社群公告為主",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "售票時間：🕒 週一至週五 19:00-21:00",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "售票價格：💵 有繳學生會費 - 會員價",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "未繳學生會費 - 一般價",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "align": "end",
+            "offsetEnd": "24px",
+            "offsetBottom": "7px"
+          },
+          {
+            "type": "text",
+            "text": "(均為單程票價，依社群公告為主)",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "align": "end",
+            "offsetBottom": "7px",
+            "offsetEnd": "-10px"
+          },
+          {
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "text": "發車地點及時間：",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "去程：屏科大綜合大樓前廣場(18：00)",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://maps.app.goo.gl/tG6iHG9cYnyWVS1C8"
+            }
+          },
+          {
+            "type": "text",
+            "text": "回程：依據各地區指定地點及集合時間",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "(請提前15分鐘至搭車地點等候)",
+            "weight": "regular",
+            "size": "sm",
+            "margin": "md",
+            "align": "start",
+            "color": "#cb2028"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "📍站點位置",
+                  "text": "返鄉專車@站點位置"
+                },
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "color": "#686665"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "gravity": "center",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "📢 社群公告",
+                  "uri": "https://www.instagram.com/npust_sa/"
+                },
+                "color": "#686665"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/Ne6Ky7M.jpeg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "國立屏東科技大學  學生會",
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/9kfzg9R.png",
+                "offsetTop": "6px",
+                "size": "xl"
+              },
+              {
+                "type": "text",
+                "text": "特約商店",
+                "weight": "bold",
+                "size": "md",
+                "margin": "lg",
+                "offsetEnd": "8px"
+              }
+            ],
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ℹ️關於特約：",
+                "weight": "regular",
+                "size": "sm",
+                "margin": "xl",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+                }
+              },
+              {
+                "type": "text",
+                "text": "特約商店將會陸續簽約，若有更新將會在學生會 Instagram 中的限時動態發佈。\n特約商店涵蓋了各類型的店家，從美食餐廳、飲料店到機車行、保齡球館。",
+                "weight": "regular",
+                "size": "sm",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+                },
+                "wrap": true,
+                "lineSpacing": "1.5px"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "⚠️注意事項：",
+                "weight": "regular",
+                "size": "sm",
+                "margin": "xl",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+                }
+              },
+              {
+                "type": "text",
+                "text": "1.須主動出示會卡",
+                "weight": "regular",
+                "size": "sm",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+                }
+              },
+              {
+                "type": "text",
+                "text": "2.須為該屆會員（目前為38屆）",
+                "weight": "regular",
+                "size": "sm",
+                "margin": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "https://maps.app.goo.gl/VfSysesfpfVSTaEPA"
+                }
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "🏪 查看完整特約商店名單",
+              "uri": "https://docs.google.com/spreadsheets/d/1u8wQ8JrnCaYQFUW3R618Luy20HjoOyDB3ICKuuf2kYo/edit?gid=0#gid=0"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#686665",
+            "margin": "xxl"
+          }
+        ]
+      }
+    }
+  ]
+}

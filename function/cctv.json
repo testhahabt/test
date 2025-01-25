@@ -1,0 +1,209 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://pteoc.pthg.gov.tw/WaterStationVideo/ShowHttpImage?id=244",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-r9eyez3x"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "校門口摩斯漢堡前 (1)",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://pteoc.pthg.gov.tw/WaterStationVideo/ShowHttpImage?id=245&sec=7",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-Q9MnMjoz"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "校門口摩斯漢堡前 (2)",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://cctv-ss04.thb.gov.tw:443/T1-404K+450/snapshot",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-eoyGyJ23"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "內埔鄉豐田村中正路",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-jrw5w63L"
+        },
+        "url": "https://cctv-ss04.thb.gov.tw/T1-406K+550/snapshot"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "內埔鄉東寧村屏光路",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://cctv-ss05.thb.gov.tw/T24-19K+900/snapshot",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-vn121J64"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "內埔鄉水門村成功路 (1)",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://cctv-ss05.thb.gov.tw/T24-19K+450/snapshot",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover",
+        "action": {
+          "type": "uri",
+          "uri": "https://liff.line.me/2006282783-kgNxNnGv"
+        }
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "內埔鄉水門村成功路 (2)",
+            "weight": "bold",
+            "size": "lg",
+            "margin": "none"
+          },
+          {
+            "type": "text",
+            "text": "[動態畫面]  點擊圖片查看實時串流",
+            "size": "sm",
+            "margin": "sm",
+            "wrap": true
+          }
+        ]
+      }
+    }
+  ]
+}

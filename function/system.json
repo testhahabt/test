@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/95jq3HT.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "校務系統",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "成績、缺曠、獎懲、請假、停修、暑修：",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "行政資訊系統",
+                  "uri": "https://www.npust.edu.tw/login.aspx?url=https://course.npust.edu.tw/TMIS/Master/Index.aspx"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "學貸、住宿、獎學金、RFID停車證：",
+            "margin": "xl",
+            "size": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "學務資訊系統",
+                  "uri": "https://www.npust.edu.tw/login.aspx?url=http://osas.npust.edu.tw/alltop/login.php"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#0075c2",
+                "scaling": false,
+                "gravity": "center"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "margin": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "預設帳號為學號，密碼則為身分證字號。",
+        "margin": "lg",
+        "size": "sm",
+        "color": "#aaaaaa"
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "輸入教室代號查詢",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "若查詢之教室為辦公室、研討室及儲藏室等非班級課表授課用途則無法查詢。",
+        "wrap": true,
+        "size": "sm",
+        "margin": "md",
+        "color": "#aaaaaa"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "contents": [
+          {
+            "type": "text",
+            "text": "聊天室中輸入教室代號即可查詢該教室類型、管理單位及位置等資訊。",
+            "wrap": true,
+            "size": "md"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "「CE」",
+            "wrap": true,
+            "size": "md",
+            "decoration": "underline",
+            "flex": 0,
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "CE"
+            }
+          },
+          {
+            "type": "text",
+            "text": "、",
+            "wrap": true,
+            "size": "md",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "「IH310」",
+            "wrap": true,
+            "size": "md",
+            "decoration": "underline",
+            "flex": 0,
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "IH310"
+            }
+          },
+          {
+            "type": "text",
+            "text": "、",
+            "wrap": true,
+            "size": "md",
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "「體教二」",
+            "wrap": true,
+            "size": "md",
+            "decoration": "underline",
+            "flex": 0,
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "體教二"
+            }
+          }
+        ],
+        "margin": "lg"
+      }
+    ]
+  }
+}

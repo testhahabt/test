@@ -1,0 +1,317 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東縣內埔鄉今日天氣",
+            "color": "#ffffff66",
+            "size": "sm",
+            "offsetBottom": "1px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "color": "#ffffff",
+                "size": "xl",
+                "flex": 2,
+                "weight": "bold",
+                "text": "陰時多雲短暫雨",
+                "wrap": true,
+                "offsetTop": "12px"
+              },
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/VOA0Uqf.png",
+                "size": "sm",
+                "flex": 1,
+                "offsetEnd": "3px"
+              }
+            ],
+            "spacing": "md",
+            "offsetBottom": "10px"
+          },
+          {
+            "type": "text",
+            "text": "🌡️ 溫度：23 ~ 27°C",
+            "color": "#ffffff",
+            "size": "sm",
+            "weight": "bold",
+            "offsetTop": "-10px"
+          },
+          {
+            "type": "text",
+            "text": "🌧️ 降雨：60%    🔆 紫外線：5",
+            "color": "#ffffff",
+            "size": "sm",
+            "offsetTop": "-6px",
+            "weight": "bold"
+          }
+        ]
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#0367D3",
+    "spacing": "md",
+    "height": "154px",
+    "paddingTop": "17px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "未來 6 天預報",
+        "weight": "bold",
+        "size": "md",
+        "color": "#111111"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/G4BMzRF.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "今天晚上",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px",
+            "margin": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/NYRMBRJ.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "11/19(二)",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/t7nhXUo.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "11/20(三)",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/bItQuvH.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "11/21(四)",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/HM8RwHn.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "11/22(五)",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/4SljInX.png",
+                "flex": 0,
+                "size": "22px",
+                "offsetBottom": "1.7px"
+              },
+              {
+                "type": "text",
+                "text": "11/23(六)",
+                "size": "sm",
+                "flex": 0,
+                "align": "start"
+              },
+              {
+                "type": "text",
+                "text": "🌡️ 23 ~ 27°C",
+                "size": "sm",
+                "flex": 2,
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "🌧️ 60%",
+                "size": "sm",
+                "align": "end",
+                "flex": 0
+              }
+            ],
+            "spacing": "lg",
+            "paddingTop": "10px"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "text",
+        "text": "資料來源：中央氣象署",
+        "offsetTop": "8px",
+        "size": "xs",
+        "color": "#aaaaaa",
+        "margin": "sm"
+      }
+    ]
+  }
+}

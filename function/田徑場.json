@@ -1,0 +1,117 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/91dNr4Q.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "田徑場",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "6px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "田徑場開放時間",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "週一至週五：12:00-20:30",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "週六：08:00-17:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "場地使用優先順序為 1.班級上課、2.學校代表隊訓練、3.完成租用場地手續者。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true,
+            "color": "#FF0000"
+          },
+          {
+            "type": "text",
+            "text": "若晚上超出開放時間將關閉照明大燈",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true,
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "田徑場位置",
+                  "uri": "https://maps.app.goo.gl/ng5ngsZgx8Kzu6mz5"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "若有異動依公告為主，資訊僅供參考。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}

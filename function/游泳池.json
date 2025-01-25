@@ -1,0 +1,138 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/KXAwwGI.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "游泳池",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "6px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "開放時間",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "週一：15:30-20:30",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "週二至週五：17:30-20:30",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "週六：14:00-18:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "游泳池每學期開放時間皆有異動，請以學校社群最新公告為主。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true,
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "message",
+                  "label": "收費標準",
+                  "text": "游泳池@收費標準"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "游泳池位置",
+                  "uri": "https://maps.app.goo.gl/9peXnQsorSQVS9nP8"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "📢 社群公告",
+              "uri": "https://www.facebook.com/npustswimmingpool"
+            },
+            "height": "sm",
+            "color": "#FF8000",
+            "margin": "lg"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "若有異動依公告為主，資訊僅供參考。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}

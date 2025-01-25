@@ -1,0 +1,186 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "url": "https://i.imgur.com/HuDchBx.jpeg"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "圖書與會展館",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "text",
+        "text": "本館為五層樓之建築，（地上四層，地下一層），館舍面積共5600坪。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "text",
+        "text": "第一次使用前須至「讀者權益簽署」完成簽署後，才可以使用各項個人功能。",
+        "weight": "regular",
+        "size": "sm",
+        "margin": "lg",
+        "wrap": true
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#548B54",
+            "action": {
+              "type": "message",
+              "label": "🕒開館時間",
+              "text": "圖書與會展館@開館時間"
+            }
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "🛗樓層簡介",
+              "text": "圖書與會展館@樓層簡介"
+            },
+            "color": "#548B54"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "📞聯絡資訊",
+              "text": "圖書與會展館@聯絡資訊"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#548B54"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "📍地圖位置",
+              "uri": "https://maps.app.goo.gl/BZ7asztiXYFJmarX8"
+            },
+            "color": "#548B54"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "📊今日數據",
+              "uri": "https://liff.line.me/2006146287-XxgQ9zR6"
+            },
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "color": "#548B54"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "gravity": "center",
+            "height": "sm",
+            "action": {
+              "type": "uri",
+              "label": "📌空間預約",
+              "uri": "https://liff.line.me/2006146287-P6GNn712"
+            },
+            "color": "#548B54"
+          }
+        ],
+        "margin": "xl"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🔍查詢圖書 / 期刊 / 文獻 / 館藏",
+          "uri": "https://liff.line.me/2006146287-y6KOQLzb"
+        },
+        "style": "primary",
+        "gravity": "center",
+        "height": "sm",
+        "color": "#698B22",
+        "margin": "xl"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "📖借書紀錄 / 🚫停權查詢 ",
+          "uri": "https://liff.line.me/2006146287-VkY9aORe"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#698B22",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "🖊️讀者權益簽署",
+          "uri": "https://liff.line.me/2006146287-0owjdO4W"
+        },
+        "style": "primary",
+        "height": "sm",
+        "color": "#698B22",
+        "margin": "xl",
+        "gravity": "center",
+        "scaling": false,
+        "position": "relative"
+      }
+    ]
+  }
+}

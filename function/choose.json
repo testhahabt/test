@@ -1,0 +1,101 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/zQxY7Mi.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "網路選課",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "請選擇欲查詢的內容：",
+                "wrap": true,
+                "color": "#666666",
+                "size": "sm"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "xs",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "一般選課系統",
+                  "uri": "https://course.npust.edu.tw/CourseComm/Login.aspx?ReturnUrl=%2fCourseComm"
+                },
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "加退選系統",
+                  "uri": "https://course.npust.edu.tw/courseadddrop/Login.aspx"
+                },
+                "margin": "lg",
+                "color": "#435e56"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {
+                  "type": "uri",
+                  "label": "通識、體育選課系統",
+                  "uri": "https://course.npust.edu.tw/CourseWish/Login.aspx?ReturnUrl=%2fCourseWish%2f"
+                },
+                "color": "#435e56",
+                "margin": "lg"
+              }
+            ],
+            "spacing": "sm",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [],
+            "margin": "sm"
+          }
+        ],
+        "margin": "xs"
+      }
+    ]
+  }
+}

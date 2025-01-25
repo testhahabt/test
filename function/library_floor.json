@@ -1,0 +1,299 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/GUKOH3D.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "圖書與會展館 - 樓層簡介",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/jfBPCh5.png",
+                    "offsetTop": "3px",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "B1 樓",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "悅讀園：供讀者靜讀之場所。\n\n拼創實驗室：協助學生成為創新無限、創業實踐之創業家。\n\n創新創業辦公室：提供跨領域學習、創新創課實作及創新創業輔導等服務。",
+                "margin": "none",
+                "size": "sm",
+                "wrap": true,
+                "align": "start",
+                "flex": 1,
+                "offsetTop": "60px"
+              }
+            ],
+            "margin": "md",
+            "flex": 1
+          }
+        ],
+        "flex": 1
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/h1UdPd0.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "圖書與會展館 - 樓層簡介",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/jfBPCh5.png",
+                    "offsetTop": "3px",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "1F 樓",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "流通櫃臺：提供圖書、影音媒體等資源流通服務。\n\n行政區：館長室及辦公室。\n\n書庫區：陳列新書、暢銷書等。\n\n影像室：陳列影音資源。\n\n宏普享讀書房、Lagoon書屋：靜讀之場所。\n\nE.house：提供輕食、咖啡及茶飲。",
+                "margin": "md",
+                "size": "sm",
+                "wrap": true,
+                "align": "start",
+                "flex": 1,
+                "offsetTop": "11px"
+              }
+            ],
+            "margin": "md",
+            "flex": 1
+          }
+        ],
+        "flex": 1
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/EsjABK3.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "圖書與會展館 - 樓層簡介",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/jfBPCh5.png",
+                    "offsetTop": "3px",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "2F 樓",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "中文書庫區：典藏1至8類中日文圖書。\n\n愉．瑜．踰創意發想中心：設有多功能空間、影音欣賞區及研討室13間。",
+                "margin": "md",
+                "size": "sm",
+                "wrap": true,
+                "align": "start",
+                "flex": 1,
+                "offsetTop": "60px"
+              }
+            ],
+            "margin": "md",
+            "flex": 1
+          }
+        ],
+        "flex": 1
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/sdiv7Vn.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "圖書與會展館 - 樓層簡介",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/jfBPCh5.png",
+                    "offsetTop": "3px",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "3F 樓",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "西文書庫：典藏各類西文圖書。\n\n中文書庫：典藏0類與9類中日文圖書。\n\n研究小間：提供靜讀與寫作空間。\n\n藝文中心：提供藝文展覽，設有A館、B館及C館。\n\n校史館：展示本校發展歷程與成就。\n\n行政區：會展活動組及校友總會辦公室。",
+                "margin": "md",
+                "size": "sm",
+                "wrap": true,
+                "align": "start",
+                "flex": 1,
+                "offsetTop": "11px"
+              }
+            ],
+            "margin": "md",
+            "flex": 1
+          }
+        ],
+        "flex": 1
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/8R7oG8G.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "圖書與會展館 - 樓層簡介",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/jfBPCh5.png",
+                    "offsetTop": "3px",
+                    "size": "lg"
+                  },
+                  {
+                    "type": "text",
+                    "text": "4F 樓",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "期刊區：中日、西文期刊及過期期刊。\n\n博碩士論文區：陳列本校學生之博碩士論文。\n\n參考書區：陳列各種參考工具書、統計資料及研究報告。\n\n開放討論桌：靜讀或輕聲討論使用。\n\n國際會議廳：大型會議研討會使用。\n\n美術館：典藏曾淑慧與李進安畫家作品。",
+                "margin": "xl",
+                "size": "sm",
+                "wrap": true,
+                "align": "start",
+                "flex": 1
+              }
+            ],
+            "margin": "md",
+            "flex": 1
+          }
+        ],
+        "flex": 1
+      }
+    }
+  ]
+}

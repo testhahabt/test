@@ -1,0 +1,363 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "國立屏東科技大學",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "margin": "none"
+      },
+      {
+        "type": "text",
+        "text": "Microsoft 365 使用教學",
+        "size": "xl",
+        "weight": "bold",
+        "wrap": true,
+        "margin": "xs"
+      },
+      {
+        "type": "separator",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/sI0LxdM.png",
+                "size": "lg",
+                "offsetTop": "4.9px"
+              },
+              {
+                "type": "text",
+                "weight": "bold",
+                "margin": "sm",
+                "text": "申請方式"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "學號開頭為112(含)學期以前之學生無需申請，直接從步驟一開始操作即可。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true,
+            "color": "#EA0000"
+          },
+          {
+            "type": "text",
+            "text": "欲申請者請填寫「申請表」並附上「學籍證明」（學生證正反面，並有該學期註冊章）寄送至信箱 ejean@mail.npust.edu.tw。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "lg",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📄申請表",
+                  "uri": "https://cc.npust.edu.tw/wp-content/uploads/2021/09/110_Office-365%E5%B8%B3%E8%99%9F%E7%94%B3%E8%AB%8B%E8%A1%A8_0908.odt"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#464feb",
+                "gravity": "center"
+              },
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "✉️信箱地址",
+                  "uri": "mailto:ejean@mail.npust.edu.tw"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#464feb",
+                "gravity": "center"
+              }
+            ],
+            "margin": "lg"
+          }
+        ],
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/gRXmUZn.png",
+                "size": "lg",
+                "offsetTop": "4.9px"
+              },
+              {
+                "type": "text",
+                "text": "步驟一",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "前往 Microsoft 365 網站並點選「登入」",
+            "margin": "md",
+            "size": "sm"
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/p65ZJjn.png",
+            "size": "full",
+            "aspectRatio": "20:11",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "sm",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "uri",
+                  "label": "📎Microsoft 365 網站",
+                  "uri": "https://www.office.com"
+                },
+                "height": "sm",
+                "style": "primary",
+                "color": "#464feb",
+                "gravity": "center"
+              }
+            ],
+            "margin": "md"
+          }
+        ],
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/FQsuFz0.png",
+                "size": "lg",
+                "offsetTop": "4.9px"
+              },
+              {
+                "type": "text",
+                "text": "步驟二",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "登入本校專用帳號：",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "帳號：學號@office365.npust.edu.tw\n預設密碼：Npustoffice365",
+            "margin": "sm",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/BlmD4vO.png",
+            "size": "full",
+            "aspectRatio": "13:10",
+            "margin": "sm",
+            "aspectMode": "fit",
+            "animated": false
+          }
+        ],
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "none"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/25ZHRn3.png",
+                "size": "lg",
+                "offsetTop": "4.9px"
+              },
+              {
+                "type": "text",
+                "text": "步驟三",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "由於為第一次登入，因此系統會要求立即更改為您的個人密碼。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/lsynxTe.png",
+            "size": "full",
+            "aspectRatio": "10:10",
+            "margin": "sm"
+          }
+        ],
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/rueDhKw.png",
+                "size": "lg",
+                "offsetTop": "5px"
+              },
+              {
+                "type": "text",
+                "text": "步驟四",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "完成更改密碼後請在已登入帳號狀態下\n回到 Microsoft 365 網站。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "點選右上方的「安裝等等」並選擇「安裝 Microsoft 365 應用程式」將軟體安裝至您的電腦上。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/eSWgvgo.png",
+            "size": "full",
+            "aspectRatio": "10:9",
+            "margin": "lg"
+          }
+        ],
+        "margin": "none"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/fMdEjKu.png",
+                "size": "lg",
+                "offsetTop": "5px"
+              },
+              {
+                "type": "text",
+                "text": "步驟五",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "lg"
+          },
+          {
+            "type": "text",
+            "text": "安裝完成後開啟任意Office軟體，\n並登入步驟二的帳號及您設定的密碼。\n\n點選右上方的頭貼可確認帳號是否正確。",
+            "margin": "md",
+            "size": "sm",
+            "wrap": true
+          },
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/A4FIT9J.png",
+            "aspectRatio": "13:10",
+            "size": "full",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "大功告成！已可開始使用相關Office軟體",
+            "margin": "lg",
+            "size": "sm",
+            "wrap": true,
+            "weight": "bold"
+          }
+        ]
+      }
+    ]
+  }
+}

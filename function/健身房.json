@@ -1,0 +1,196 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/tLoSunT.jpeg",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "健身房（體適能中心）",
+        "size": "xl",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "6px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "開放時間",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "text": "週一至週五：\n12:20-13:20、17:30-19:00、19:00-20:30",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "週六下午：\n14:00-15:30、15:30-17:00",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "(結束前五分鐘清場)",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center"
+          },
+          {
+            "type": "text",
+            "text": "期中末考週、寒暑假及國定假日暫停開放。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true,
+            "color": "#FF0000"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/jfBPCh5.png",
+                "offsetTop": "3px",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "開放對象",
+                "weight": "bold",
+                "margin": "sm"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "01. 本校運動代表隊、教職員工、學生。\n02. 其他人士。",
+            "margin": "lg",
+            "size": "sm",
+            "gravity": "center",
+            "wrap": true
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "message",
+                  "label": "收費標準",
+                  "text": "健身房@收費標準"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "message",
+                  "label": "健身房規定",
+                  "text": "健身房@規定"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "spacing": "md",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "健身房預約",
+                  "uri": "https://liff.line.me/2006282783-er757mwd"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "健身房位置",
+                  "uri": "https://maps.app.goo.gl/DJLdJeuaZYqFDxBY8"
+                },
+                "height": "sm",
+                "color": "#FF8000"
+              }
+            ],
+            "margin": "xl"
+          },
+          {
+            "type": "separator",
+            "margin": "xl"
+          },
+          {
+            "type": "text",
+            "text": "健身房位於孟祥體育館2F。",
+            "margin": "xl",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#aaaaaa",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "若有異動依公告為主，資訊僅供參考。",
+            "margin": "md",
+            "size": "sm",
+            "gravity": "center",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ],
+        "margin": "md"
+      }
+    ]
+  }
+}

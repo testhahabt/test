@@ -1,0 +1,968 @@
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 509",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏東總站－屏科大",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線憑本校學生證刷卡只要10元",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-8zqQDrnv"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-G5EnKY3O"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-EXQjnBP7"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 510",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏科大賃居線",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線憑本校學生證刷卡免費搭乘",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-NOv42ndO"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-NVlE2RBa"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-P1GWDXl9"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 510A",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏科大賃居內埔線",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線憑本校學生證刷卡免費搭乘",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-zyPJLn03"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-K3YevNaG"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-VElvQEBL"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/RzQ3sWY.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "高雄客運 - 512",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/hwiJDbv.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "鳳山轉運站－屏科大",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口站牌，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-JEyYp8aj"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-2JrjdEVy"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-2q6e4nZ9"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/RzQ3sWY.jpeg",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "高雄客運 - 606",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/hwiJDbv.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "潮州轉運站－水門轉運站",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口附近，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-4BKlbnD7"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-R9zrw2Wg"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-A8aQRkjE"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 8232",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏東轉運站－水門(經老埤)",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口附近，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-O5GrKXmP"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-0YrObKvX"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-RkwXKjnA"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 8232A",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏東轉運站－水門 [繞駛屏東女中]",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口附近，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-O5GrKXmP"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-QgYo3KAq"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-xOGb74XV"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 8233",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "屏東－霧台",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口附近，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-6zjGdqz1"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-ba4wPAxj"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-eN2Bo0q8"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "url": "https://i.imgur.com/4ZjHxtl.png",
+        "size": "full",
+        "aspectRatio": "20:13",
+        "aspectMode": "cover"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "屏東客運 - 8240",
+            "size": "xl",
+            "weight": "bold"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/H9TAEQg.png",
+                    "offsetTop": "3.8px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "潮州－內埔－水門",
+                    "weight": "bold",
+                    "margin": "sm"
+                  }
+                ]
+              },
+              {
+                "type": "text",
+                "text": "本路線僅行經校門口附近，未行駛至校內",
+                "margin": "xl",
+                "size": "sm"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🔁路線圖",
+                      "uri": "https://liff.line.me/2006125815-7Oxnv9Vw"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  },
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "💵票價查詢",
+                      "uri": "https://liff.line.me/2006125815-jJyG3wxA"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "spacing": "sm",
+                "contents": [
+                  {
+                    "type": "button",
+                    "action": {
+                      "type": "uri",
+                      "label": "🕒公車動態",
+                      "uri": "https://liff.line.me/2006125815-j932zRqp"
+                    },
+                    "height": "sm",
+                    "style": "primary",
+                    "color": "#ffb02e",
+                    "scaling": false,
+                    "gravity": "center"
+                  }
+                ],
+                "margin": "xl"
+              }
+            ],
+            "margin": "xl"
+          }
+        ]
+      }
+    }
+  ]
+}
