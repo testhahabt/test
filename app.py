@@ -12,13 +12,25 @@ from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
 from datetime import datetime, timedelta
 from googleapiclient.errors import HttpError
+from io import BytesIO
 import re
 import json
 import requests
-import io
 import time
 import base64
 import pytz
+
+@app.route("/callback", methods=['POST'])
+def callback():
+    # 處理來自 LINE 的 webhook
+    signature = request.headers['X-Line-Signature']
+    body = request.get_data(as_text=True)
+    try:
+        handler.handle(body, signature)
+    except InvalidSignatureError:
+        return 'Invalid signature', 400
+    return 'OK'
+
 
 app = Flask(__name__)
 
@@ -106,13 +118,15 @@ def upload_to_imgur(image_url):
 def handle_image_message(event):
     """處理圖片訊息，並判斷是否已有課表"""
     user_id = event.source.user_id
-    image_url = line_bot_api.get_message_content(event.message.id).url
+    message_content = line_bot_api.get_message_content(event.message.id)
+    image_data = BytesIO(message_content.content)  # 將資料流存成二進制檔案
 
     # 讀取試算表的資料
     sheet_data = get_sheet_data()
 
     # 檢查用戶是否已經有上傳的課表
     user_found = False
+    image_url = None
     for row in sheet_data:
         if row[0] == user_id:
             user_found = True
@@ -126,11 +140,19 @@ def handle_image_message(event):
             ImageSendMessage(original_content_url=image_url, preview_image_url=image_url)
         )
     else:
-        # 若沒有課表，要求用戶再傳圖片
-        line_bot_api.reply_message(
-            event.reply_token,
-            TextMessage(text="請上傳您的課表圖片！")
-        )
+        # 將圖片上傳至 Imgur 並取得圖片 URL
+        uploaded_url = upload_to_imgur(image_data)
+        if uploaded_url:
+            update_sheet(user_id, uploaded_url)  # 更新試算表
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="課表已成功上傳！")
+            )
+        else:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="上傳圖片失敗，請稍後再試！")
+            )
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_text_message(event):
