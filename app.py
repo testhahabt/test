@@ -20,6 +20,8 @@ import time
 import base64
 import pytz
 
+app = Flask(__name__)
+
 @app.route("/callback", methods=['POST'])
 def callback():
     # 處理來自 LINE 的 webhook
@@ -32,7 +34,7 @@ def callback():
     return 'OK'
 
 
-app = Flask(__name__)
+
 
 # 使用你的 Channel Access Token
 line_bot_api = LineBotApi('ykm8FFaDZ6tXowVkCNO1FtHFby7qRRytSK1VEr8YzlwlZS/+YpHryoqssihEBolMsldB2s8wB2yL8B5TWXhJqIBS615TdWS+Bklsby5CrZjJp0Ty5J7UnnL4zPpUQ8BTauJDiIUVEs9tdlcNrBOyWQdB04t89/1O/w1cDnyilFU=')
