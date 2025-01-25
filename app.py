@@ -16,25 +16,12 @@ from io import BytesIO
 import re
 import json
 import requests
+import io
 import time
 import base64
 import pytz
 
 app = Flask(__name__)
-
-@app.route("/callback", methods=['POST'])
-def callback():
-    # 處理來自 LINE 的 webhook
-    signature = request.headers['X-Line-Signature']
-    body = request.get_data(as_text=True)
-    try:
-        handler.handle(body, signature)
-    except InvalidSignatureError:
-        return 'Invalid signature', 400
-    return 'OK'
-
-
-
 
 # 使用你的 Channel Access Token
 line_bot_api = LineBotApi('ykm8FFaDZ6tXowVkCNO1FtHFby7qRRytSK1VEr8YzlwlZS/+YpHryoqssihEBolMsldB2s8wB2yL8B5TWXhJqIBS615TdWS+Bklsby5CrZjJp0Ty5J7UnnL4zPpUQ8BTauJDiIUVEs9tdlcNrBOyWQdB04t89/1O/w1cDnyilFU=')
@@ -50,7 +37,7 @@ SERVICE_ACCOUNT_FILE = 'npust-bot-8425375b1a4a.json'  # 你的服務帳戶金鑰
 # Google Sheets API 設定
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 SHEET_ID = '12XtyjACnvIWcEUImMyxgq2KK__CG_S7kxmJSFiG4Brs'
-RANGE_NAME = '課表!A:B'
+ALBUM_RANGE_NAME = '相簿!A:A'
 
 # Imgur API 設定
 IMGUR_CLIENT_ID = 'eff6d5e271fbd7b'
@@ -67,103 +54,78 @@ import os
 import json
 from flask import Flask
 
-app = Flask(__name__)
-
-def get_sheet_data():
-    """從 Google Sheets 讀取資料，並檢查是否有該使用者的課表"""
-    try:
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-        service = build('sheets', 'v4', credentials=creds)
-        sheet = service.spreadsheets()
-        
-        result = sheet.values().get(spreadsheetId=SHEET_ID, range=RANGE_NAME).execute()
-        values = result.get('values', [])
-        return values
-    except HttpError as err:
-        print(err)
-        return []
-
-def update_sheet(user_id, image_url):
-    """將用戶的課表圖片 URL 更新至 Google Sheets"""
-    try:
-        creds = Credentials.from_authorized_user_file('token.json', SCOPES)
-        service = build('sheets', 'v4', credentials=creds)
-        sheet = service.spreadsheets()
-        
-        # 更新圖片 URL 至該用戶的列
-        sheet.values().append(
-            spreadsheetId=SHEET_ID,
-            range=RANGE_NAME,
-            valueInputOption="RAW",
-            body={"values": [[user_id, image_url]]}
-        ).execute()
-    except HttpError as err:
-        print(err)
-
-def upload_to_imgur(image_url):
-    """將圖片上傳至 Imgur 並取得 URL"""
-    headers = {
-        'Authorization': f'Client-ID {IMGUR_CLIENT_ID}',
-    }
-    data = {
-        'image': image_url,
-        'type': 'url',
-    }
-    response = requests.post(IMGUR_UPLOAD_URL, headers=headers, data=data)
-    response_data = response.json()
-    
-    if response_data['success']:
-        return response_data['data']['link']
-    return None
-
-@handler.add(MessageEvent, message=ImageMessage)
-def handle_image_message(event):
-    """處理圖片訊息，並判斷是否已有課表"""
-    user_id = event.source.user_id
-    message_content = line_bot_api.get_message_content(event.message.id)
-    image_data = BytesIO(message_content.content)  # 將資料流存成二進制檔案
-
-    # 讀取試算表的資料
-    sheet_data = get_sheet_data()
-
-    # 檢查用戶是否已經有上傳的課表
-    user_found = False
-    image_url = None
-    for row in sheet_data:
-        if row[0] == user_id:
-            user_found = True
-            image_url = row[1]
-            break
-
-    if user_found:
-        # 若已有課表，回傳圖片
-        line_bot_api.reply_message(
-            event.reply_token,
-            ImageSendMessage(original_content_url=image_url, preview_image_url=image_url)
-        )
-    else:
-        # 將圖片上傳至 Imgur 並取得圖片 URL
-        uploaded_url = upload_to_imgur(image_data)
-        if uploaded_url:
-            update_sheet(user_id, uploaded_url)  # 更新試算表
-            line_bot_api.reply_message(
-                event.reply_token,
-                TextMessage(text="課表已成功上傳！")
-            )
-        else:
-            line_bot_api.reply_message(
-                event.reply_token,
-                TextMessage(text="上傳圖片失敗，請稍後再試！")
-            )
-
 @handler.add(MessageEvent, message=TextMessage)
-def handle_text_message(event):
-    """處理文字訊息"""
-    if event.message.text.lower() == "上傳課表":
+def handle_message(event):
+    user_id = event.source.user_id  # 獲取用戶 ID
+    message = event.message.text.strip()  # 獲取並清理用戶的文字訊息
+
+    # 檢查訊息是否匹配「相簿」
+    if re.match('相簿', message):
+        handle_album_upload(event)  # 執行相簿上傳功能
+
+
+def handle_album_upload(event):
+    """
+    處理相簿圖片上傳
+    使用者傳送的圖片會上傳到 Imgur，並儲存 URL 至 Google Sheets 的「相簿」工作表。
+    """
+    user_id = event.source.user_id  # 使用者 ID
+    message_content = line_bot_api.get_message_content(event.message.id)  # 獲取圖片訊息內容
+    image_data = BytesIO(message_content.content)  # 將圖片轉換成二進制資料流
+
+    # 上傳圖片至 Imgur
+    uploaded_url = upload_to_imgur(image_data)
+    if uploaded_url:
+        try:
+            # 將圖片 URL 儲存至「相簿」工作表
+            creds = Credentials.from_authorized_user_file('token.json', SCOPES)
+            service = build('sheets', 'v4', credentials=creds)
+            sheet = service.spreadsheets()
+            sheet.values().append(
+                spreadsheetId=SHEET_ID,
+                range=ALBUM_RANGE_NAME,
+                valueInputOption="RAW",
+                body={"values": [[uploaded_url]]}
+            ).execute()
+
+            # 回應使用者上傳成功
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="圖片已成功上傳至相簿！")
+            )
+        except HttpError as err:
+            print(f"Google Sheets API Error: {err}")
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="儲存圖片失敗，請稍後再試！")
+            )
+    else:
         line_bot_api.reply_message(
             event.reply_token,
-            TextMessage(text="請上傳您的課表圖片！")
+            TextMessage(text="上傳圖片失敗，請稍後再試！")
         )
+
+    
+def upload_to_imgur(image_data):
+    """
+    將圖片上傳至 Imgur 並取得圖片的 URL
+    :param image_data: 圖片的二進制資料流 (BytesIO)
+    :return: 成功則回傳圖片 URL，失敗則回傳 None
+    """
+    headers = {
+        'Authorization': f'Client-ID {IMGUR_CLIENT_ID}',  # Imgur API 的 Client ID
+    }
+    files = {
+        'image': image_data.getvalue(),  # 提交圖片資料流
+    }
+    response = requests.post(IMGUR_UPLOAD_URL, headers=headers, files=files)
+    response_data = response.json()
+
+    if response_data.get('success'):
+        return response_data['data']['link']  # 回傳圖片 URL
+    else:
+        print(f"Imgur Upload Error: {response_data}")
+        return None
 
 
 # 主程式
