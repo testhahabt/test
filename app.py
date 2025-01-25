@@ -106,6 +106,46 @@ def handle_album_upload(event):
         )
 
     
+@handler.add(MessageEvent, message=ImageMessage)
+def handle_image_message(event):
+    """處理圖片訊息，執行相簿圖片上傳邏輯"""
+    try:
+        # 獲取圖片訊息內容
+        message_content = line_bot_api.get_message_content(event.message.id)
+        image_data = BytesIO(message_content.content)  # 將圖片轉換為二進制資料流
+        
+        # 上傳圖片至 Imgur 並處理
+        uploaded_url = upload_to_imgur(image_data)
+        if uploaded_url:
+            # 將 URL 儲存至 Google Sheets
+            creds = Credentials.from_service_account_file('token.json', SCOPES)
+            service = build('sheets', 'v4', credentials=creds)
+            sheet = service.spreadsheets()
+
+            sheet.values().append(
+                spreadsheetId=SHEET_ID,
+                range=ALBUM_RANGE_NAME,
+                valueInputOption="RAW",
+                body={"values": [[uploaded_url]]}
+            ).execute()
+
+            # 回應使用者上傳成功
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="圖片已成功上傳至相簿！")
+            )
+        else:
+            line_bot_api.reply_message(
+                event.reply_token,
+                TextMessage(text="上傳圖片失敗，請稍後再試！")
+            )
+    except Exception as e:
+        print(f"處理圖片錯誤: {e}")
+        line_bot_api.reply_message(
+            event.reply_token,
+            TextMessage(text="圖片處理過程中出現錯誤，請稍後再試！")
+        )
+
 def upload_to_imgur(image_data):
     """
     將圖片上傳至 Imgur 並取得圖片的 URL
